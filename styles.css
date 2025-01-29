@@ -7,10 +7,12 @@
 body {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    padding-top: 40px; /* Добавляем отступ сверху */
     height: 100vh;
     background-color: #f9f9f9;
     font-family: Arial, sans-serif;
+
 }
 
 
@@ -74,7 +76,7 @@ body {
 }
 
 .page p {
-    margin-bottom: 20px; /* Расстояние между абзацами */
+    margin-bottom: 10px; /* Расстояние между абзацами */
     font-size: 18px;      /* Размер шрифта */
     line-height: 1.5;     /* Межстрочный интервал */
     text-align: justify;  /* Выравнивание текста по ширине */
