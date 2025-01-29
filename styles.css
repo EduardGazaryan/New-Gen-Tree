@@ -49,7 +49,7 @@ body {
 
 .book {
     width: 360px;
-    height: 600px;
+    height: 500px;
     position: relative;
     overflow: hidden;
     perspective: 1500px;
