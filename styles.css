@@ -16,7 +16,7 @@ body {
 
 .frame {
     position: relative;
-    width: 420px;
+    width: 380px;
     padding: 10px;
     font-size: 18px;
     color: #333;
@@ -48,7 +48,7 @@ body {
 
 
 .book {
-    width: 400px;
+    width: 360px;
     height: 600px;
     position: relative;
     overflow: hidden;
