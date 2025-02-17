@@ -112,11 +112,11 @@ button {
 
 
 button:nth-of-type(1) {
-    left: 33px;
+    left: 13px;
 }
 
 button:nth-of-type(2) {
-    right: 30px;
+    right: 10px;
 }
 
 
@@ -140,7 +140,7 @@ a.button:hover {
 
 #page-select {
     position: absolute;
-    bottom: 30px; /* Отступ снизу */
+    bottom: 20px; /* Отступ снизу */
     left: 50%; /* Центрирование по горизонтали */
     transform: translateX(-50%); /* Смещение для точного центрирования */
 }
