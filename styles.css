@@ -138,7 +138,7 @@ a.button:hover {
 
 #page-select {
     position: absolute;
-    bottom: 180px; /* Отступ снизу */
+    bottom: 30px; /* Отступ снизу */
     left: 50%; /* Центрирование по горизонтали */
     transform: translateX(-50%); /* Смещение для точного центрирования */
 }
