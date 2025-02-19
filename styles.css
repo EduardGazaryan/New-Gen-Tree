@@ -83,6 +83,20 @@ body {
     
 }
 
+.page p span {
+    border: 2px solid rgb(244, 237, 237); /* Рамка толщиной 2px черного цвета */
+    padding: 4px; /* Внутренний отступ от рамки до текста */
+}
+
+
+.page p:first-of-type {
+    font-size: 24px; /* Увеличенный размер шрифта для первого абзаца */
+    text-align: center; /* Центрирование текста */
+    border: 2px solid rgb(239, 234, 234); /* Рамка толщиной 2px черного цвета */
+    padding: 10px; /* Внутренний отступ от рамки до текста */
+    margin-bottom: 20px; /* Отступ снизу для разделения с другими элементами */
+}
+
 
 .page p {
     margin-bottom: 10px; /* Расстояние между абзацами */
@@ -182,4 +196,16 @@ select {
     background-position: right 12px top 50%;
     background-repeat: no-repeat;
     padding-right: 35px;
+}
+
+
+
+p {
+    display: flex; /* Включаем Flexbox */
+    justify-content: space-between; /* Размещаем элементы по краям */
+}
+
+p span {
+    border: 2px solid black; /* Рамка толщиной 2px черного цвета */
+    padding: 4px; /* Внутренний отступ от рамки до текста */
 }
